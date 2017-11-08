@@ -3,6 +3,7 @@ session_start();
 //require("dbconnect.php");
 //拉拉拉testestsetestststse
 //nonono
+//u cant see me
 //set the login mark to empty
 if ( ! isset($_SESSION['uID']) or $_SESSION['uID'] <= 0) {
 	header("Location: loginForm.php");
